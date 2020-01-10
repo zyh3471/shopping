@@ -1,9 +1,30 @@
 // Place all the styles related to the main_page controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-.top_bar {
+.backgrd {
+    background: image_url('bg.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     position: absolute;
     width: 1440px;
+    height: 1415px;
+    left: 0px;
+    top: 633px;
+}
+
+.section_box {
+    position: absolute;
+    width: 296.62px;
+    height: 270px;
+    // left: 122px;
+    // top: 78px;
+    background: #FFE600;
+}
+.top_bar {
+    position: absolute;
+    width: 1440px; 
     height: 149.4px;
     left: 0px;
     top: 0px;
@@ -18,3 +39,4 @@
     top: 1714px;
     background: #000000;
 }
+
